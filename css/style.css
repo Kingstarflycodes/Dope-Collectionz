@@ -24,6 +24,14 @@ body {
     align-items: center;
 }
 
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
 li {
     list-style: none;
 }
@@ -124,4 +132,45 @@ li {
 
 .nav-last-child ul li:hover {
     color: #c9c8c8;
+}
+
+.head-gallery {
+    width: 100%;
+    height: 25rem;
+    background-color: black;
+    margin-top: 6rem;
+    display: flex;
+}
+
+.head-back-pic-one-cont {
+    height: 100%;
+    width: 70%;
+    overflow: hidden;
+}
+
+.head-back-pic-one {
+    width: 60rem;
+    height: 50rem;
+}
+
+.head-back-pic-two-cont {
+    height: 100%;
+    width: 30%;
+    overflow: hidden;
+}
+
+.head-back-pic-two {
+    width: 25rem;
+}
+
+.head-pic-three {
+    width: 18rem;
+    height: 28rem;
+    overflow: hidden;
+    border-radius: 1rem;
+    right: 8rem;
+}
+
+.head-pic-three img {
+    width: 25rem;
 }

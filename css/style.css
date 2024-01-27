@@ -146,6 +146,7 @@ li {
     height: 100%;
     width: 70%;
     overflow: hidden;
+    filter: blur(.2rem) brightness(70%);
 }
 
 .head-back-pic-one {
@@ -157,10 +158,97 @@ li {
     height: 100%;
     width: 30%;
     overflow: hidden;
+    filter: blur(.2rem) brightness(70%);
 }
 
 .head-back-pic-two {
     width: 25rem;
+}
+
+.head-glerry-desc-cont {
+    left: 18rem;
+    top: 7rem;
+}
+
+.head-gallery-desc {
+    font-size: 4rem;
+    line-height: 57px;
+    color: #ffffff;
+}
+
+.head-text-fashion {
+    font-weight: bolder;
+}
+
+.head-gallery-discount {
+    font-size: 2rem;
+    color: rgb(255, 166, 0);
+    top: -1rem;
+    right: -1rem;
+    rotate: 30deg;
+}
+
+.head-glerry-desc-cont .head-btn {
+    padding: .5rem 1rem;
+    border: none;
+    border-radius: .5rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    background-color: rgb(255, 166, 0);
+    color: #ffffff;
+    transition: all .75s ease-in-out;
+}
+
+.head-glerry-desc-cont .head-btn:hover {
+    opacity: .7;
+}
+
+.head-pic-one {
+    width: 16rem;
+    height: 16rem;
+    overflow: hidden;
+    top: -3rem;
+    right: 28rem;
+    border-radius: 1rem;
+    transition: all .75s ease-in-out;
+    filter: blur(.04rem);
+    cursor: pointer;
+}
+
+.head-pic-one:hover {
+    width: 17rem;
+    height: 17rem;
+    top: -4rem;
+    filter: blur(0);
+}
+
+.head-pic-one img {
+    width: 100%;
+    height: 100%;
+}
+
+.head-pic-two {
+    width: 13rem;
+    height: 13rem;
+    overflow: hidden;
+    bottom: -2rem;
+    right: 28rem;
+    border-radius: 1rem;
+    transition: all .75s ease-in-out;
+    filter: blur(.04rem);
+    cursor: pointer;
+}
+
+.head-pic-two:hover {
+    width: 14rem;
+    height: 14rem;
+    bottom: -3rem;
+    filter: blur(0);
+}
+
+.head-pic-two img {
+    width: 100%;
+    height: 100%;
 }
 
 .head-pic-three {
@@ -169,6 +257,16 @@ li {
     overflow: hidden;
     border-radius: 1rem;
     right: 8rem;
+    transition: all .75s ease-in-out;
+    filter: blur(.04rem);
+    cursor: pointer;
+}
+
+.head-pic-three:hover {
+    width: 20rem;
+    height: 30rem;
+    right: 7rem;
+    filter: blur(0);
 }
 
 .head-pic-three img {
